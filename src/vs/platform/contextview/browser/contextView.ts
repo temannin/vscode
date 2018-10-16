@@ -36,5 +36,5 @@ export interface IContextMenuService {
 	_serviceBrand: any;
 
 	showContextMenu(delegate: IContextMenuDelegate): void;
-	onDidContextMenu: Event<void>; // TODO@isidor these event should be removed once we get async context menus
+	onDidContextMenu: Event<void>; // TODO@isidor these events should be removed once we get async context menus
 }
